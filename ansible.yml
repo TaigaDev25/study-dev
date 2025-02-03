@@ -1,8 +1,8 @@
 - hosts: all
   #ansible_user: ict
   become: true
-  become_method: sudo
-  become_password: "0ew,jwfh"
+#  become_method: sudo
+#  become_password: "0ew,jwfh"
   tasks:
  #   -  name: delete old deployment
  #      command: kubectl delete -f /opt/deployment.yml
